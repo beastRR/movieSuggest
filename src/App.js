@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Action from './Action';
 import './App.css';
-import Card from './Card';
+// import Card from './Card';
 import Comedy from './Comedy';
 import Horror from './Horror';
 import Thriller from './Thriller';
@@ -43,10 +43,10 @@ function App() {
 
       <div className="displayBox">
 
-        {genre=="thriller" && (<><h2 className='text-center'>Thriller</h2><Thriller/></>)}
-        {genre=="action" && (<><h2 className='text-center'>Action</h2><Action/></>)}
-        {genre=="horror" && (<><h2 className='text-center'>Horror</h2><Horror/></>)}
-        {genre=="comedy" && (<><h2 className='text-center'>Comedy</h2><Comedy/></>)}
+        {genre==="thriller" && (<><h2 className='text-center'>Thriller</h2><Thriller/></>)}
+        {genre==="action" && (<><h2 className='text-center'>Action</h2><Action/></>)}
+        {genre==="horror" && (<><h2 className='text-center'>Horror</h2><Horror/></>)}
+        {genre==="comedy" && (<><h2 className='text-center'>Comedy</h2><Comedy/></>)}
 
         {/* <Card/>
         <Card/>
