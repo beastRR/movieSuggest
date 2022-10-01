@@ -11,6 +11,11 @@ h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+h2{
+  font-family:'copperplate',fantasy;
+  font-weight:900;
+}
+
 button{
   background: rgb(149, 19, 169);
   /* padding: 1rem; */
