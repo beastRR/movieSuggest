@@ -47,11 +47,11 @@ button{
 }
 
 img{
-  max-width:50%;
-  height:92%;
-  /* border:3px solid white; */
+  max-width: 70%;
+  height: 92%;
+  border: 6px solid grey;
   border-radius: 3px;
-  margin:1rem 0 0rem 0 ;
+  margin: 1rem 0 0rem 3%;
 }
 
 button:hover{
@@ -62,4 +62,9 @@ button:hover{
 h3{
   color:orangered;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.displayBox {
+  width: 110%;
+  transform: translate(-20px, 0);
 }
